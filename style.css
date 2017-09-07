@@ -1,0 +1,46 @@
+body {
+    background: url(sexy3.jpg) center top no-repeat;
+	background-size: cover;
+	font-family: 'Baloo Tamma', cursive;
+	min-height: 100vh;
+	text-align: center;
+	margin:0;
+	padding:0;
+}
+.register {
+    font-size: calc(8px + .7vw);
+    background: rgba(255,255,255,.9);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 5px;
+    max-width: 90%;
+    width: 25em;
+    box-sizing: border-box;
+    box-shadow: 0px 0px .5em rgba(0, 0, 0, .2);
+}
+	
+span {
+       display: block;
+    background: #33CC00;
+    color: #fff;
+    padding: 0.6em;
+font-size: 1.2em;
+	cursor:pointer;
+    border-radius: 3px;
+		}
+a {
+    color: #fff;
+	text-decoration:none;
+}
+span:hover {
+    background: #009900;
+}
+a :hover{
+
+	text-decoration: underline;
+}
